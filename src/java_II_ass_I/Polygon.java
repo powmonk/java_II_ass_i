@@ -2,11 +2,19 @@ package java_II_ass_I;
 
 public class Polygon extends Isosceles{
 	public Polygon(double lengthValue, double sidesValue){
-		length = lengthValue;
+		super(lengthValue);
 		sides  = sidesValue;
 	}
 	
+	public double polygonArea(){
+		return sides * super.area(360 / sides); 
+		
+	}
+	
+	public double polygonPerimeter(){
+		return sides * super.baseLength(360 / sides);
+	}
 	
 	
-	private double length, sides;
+	private double sides;
 }
