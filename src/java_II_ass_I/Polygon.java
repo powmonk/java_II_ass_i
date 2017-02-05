@@ -18,4 +18,3 @@ public class Polygon extends Isosceles{
 	
 	private double sides;
 }
-''
