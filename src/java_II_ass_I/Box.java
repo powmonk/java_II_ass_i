@@ -4,8 +4,6 @@ public class Box extends Rectangle{
 	
 	public Box(double lengthValue, double widthValue, double heightValue){
 		super(lengthValue, widthValue);
-		length = lengthValue;
-		width = widthValue;
 		height = heightValue;
 		
 	}
@@ -15,8 +13,7 @@ public class Box extends Rectangle{
 	}
 	
 	public double surfaceArea(){
-		return 2*(length * width + length*height + width*height);
-		
+		return 2 * super.area() + super.perimeter() * height;
 	}
 	
 	public double bodyDiagonalLength(){
@@ -27,6 +24,6 @@ public class Box extends Rectangle{
 		return Math.sin(height / super.diagonalLength()) * (180/Math.PI);
 	}
 	
-	private double length, width, height;
+	private double height;
 
 }
