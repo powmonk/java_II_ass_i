@@ -9,7 +9,6 @@ public class test {
 		System.out.println("diagonalLength: " + cuboid.diagonalLength());
 		System.out.println("(Box)volume: " + cuboid.volume());
 		System.out.println("(Box)surfaceArea: " + cuboid.surfaceArea());
-		
 		System.out.println("(Box)bodyDiagonalLength: " + cuboid.bodyDiagonalLength());
 		System.out.println("(Box)angle: " + cuboid.angle());
 		
