@@ -21,7 +21,7 @@ public class Box extends Rectangle{
 	}
 	
 	public double angle(){
-		return Math.sin(height / super.diagonalLength()) * (180/Math.PI);
+		return Math.toDegrees(Math.atan(height / super.diagonalLength()));
 	}
 	
 	private double height;

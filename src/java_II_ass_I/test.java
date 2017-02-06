@@ -3,7 +3,7 @@ package java_II_ass_I;
 public class test {
 
 	public static void main(String[] args) {
-		Box cuboid = new Box(125, 10, 40);
+		Box cuboid = new Box(10, 10, 10);
 		System.out.println("Area: " + cuboid.area());
 		System.out.println("perimeter: " + cuboid.perimeter());
 		System.out.println("diagonalLength: " + cuboid.diagonalLength());
