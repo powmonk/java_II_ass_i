@@ -2,8 +2,8 @@ package java_II_ass_I;
 
 public class Rectangle {
 	public Rectangle(double lengthValue, double widthValue){
-		length =lengthValue;
-		width = widthValue;
+		length = lengthValue;
+		width  = widthValue;
 	}
 	public double area(){
 		return length * width;

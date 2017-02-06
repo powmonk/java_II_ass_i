@@ -13,7 +13,7 @@ public class test {
 		System.out.println("(Box)bodyDiagonalLength: " + cuboid.bodyDiagonalLength());
 		System.out.println("(Box)angle: " + cuboid.angle());
 		
-		Polygon poly = new Polygon(10, 6);
+		Polygon poly = new Polygon(17.5, 13);
 		System.out.println();
 		System.out.println(poly.polygonArea());
 		System.out.println(poly.polygonPerimeter());

@@ -20,8 +20,7 @@ public class Box extends Rectangle{
 	}
 	
 	public double bodyDiagonalLength(){
-		return  Math.sqrt(Math.pow(length, 2) + Math.pow(width, 2) + Math.pow(height, 2));
-//		return  Math.sqrt(super.area() * super.area() + Math.pow(height, 2));
+		return Math.sqrt(Math.pow(super.diagonalLength(), 2) + Math.pow(height, 2));
 	}
 	
 	public double angle(){
