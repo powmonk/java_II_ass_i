@@ -1,5 +1,3 @@
-package java_II_ass_I;
-
 public class Rectangle {
 	public Rectangle(double lengthValue, double widthValue){
 		length = lengthValue;

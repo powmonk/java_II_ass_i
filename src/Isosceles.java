@@ -1,5 +1,3 @@
-package java_II_ass_I;
-
 public class Isosceles {
 	private double length;
 	public Isosceles(double lengthValue){

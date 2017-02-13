@@ -1,5 +1,3 @@
-package java_II_ass_I;
-
 public class test {
 
 	public static void main(String[] args) {
@@ -16,7 +14,6 @@ public class test {
 		System.out.println();
 		System.out.println(poly.polygonArea());
 		System.out.println(poly.polygonPerimeter());
-		
 
 	}
 }

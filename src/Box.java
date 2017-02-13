@@ -1,5 +1,3 @@
-package java_II_ass_I;
-
 public class Box extends Rectangle{
 	
 	public Box(double lengthValue, double widthValue, double heightValue){
